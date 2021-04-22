@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My style starts here*/ 
+@media screen and (min-width: 760px){  
+	h1{
+		font-size: 81px;
+		line-height: 112px;
+		font-weight: 700; 
+		font-family: open Sans;
+	}
+
+	h2{
+		font-size: 54px;
+		line-height: 1;
+		font-weight: bold;
+	}
+	h3{
+		font-family: open sans;
+		font-size: 36px;
+	}
+	p{
+		font-size: 10px;
+		font-family: open sans;
+		line-height: 21px;
+	}
+	.container{
+		width: 1200px;
+		margin: auto;
+	}
+	header.logo{
+		background: none;
+		padding: 0;
+	}
+	.current{
+		display: flex;
+		align-items: center;
+	}
+}
+
+
+
+
+
+
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    width: 1200px;
+  
+}
+header nav{
+    background-color: #222;
+    padding: 14px; 
+}
+h1 {
+    font-size: 81px;
+    line-height: 98px;
+    font-weight:bold;
+	color: white;
+}
+
+h2 {
+    font-size: 54px;
+    line-height: 1;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+    line-height: 1.5 ;
+	font-family: Open-Sans; 
+
+}
+li {
+    float: left;
+	margin: auto;
+    }
+li a {
+		display: block;
+		padding: 8px;
+		text-align: center;
+	}
+a:link, a:visited {
+		background-color:black;
+		color: #c78c06;
+		padding: 14px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+	}
+a:hover, a:active {
+		background-color:#c78c06;
+		color: black;
+	 }
+ .intro{ 
+	width: 1200px;
+	border: 0px;
+	padding: 50px;
+	margin: 20px;
+	background:rosybrown;
+	background-image: url("../images/main-banner.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	
+}
+.intro button{
+	background-color: #c78c06;
+	color:#ffe6ac;
+	padding: 29px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	color: black;
+}	
+
+.grid-container{
+	display: flex;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+	
+}
+.about{
+	width: 1200px;
+	border: 0px;
+	padding: 50px;
+	margin: 20px;
+	background:#ffe6ac;
+	align-content: center;
+}
+.digital{
+	background:#ffe6ac;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+.marketing{
+	grid-column: 1;
+	grid-row: 2;
+	background:#ffe6ac;
+}
+.production{
+	background:#ffe6ac;
+}
+.web{
+	background:#ffe6ac;
+}
+.print{
+	background:#ffe6ac;
+}
+.vision{
+	background-image: url(../images/vision.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 1200px;
+	border-left: 25px;
+	color: white;
+	font-family: open sans;
+	align-self: auto;
+}
+h3{
+	font-family: open sans, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-left: 4px;
+	padding-bottom: 5px;
+	
+}
+h4{
+	font-size: 16px;
+	font-family: open sans;
+	font-weight: bold;
+	padding-left: 5px;
+	border-bottom: 1px solid #c78c06;
+	
+}
+.row{
+	display: flex;
+	background-color: #ffe6ac;
+	
+	
+}
+
+button{
+	background-color: #222;
+	color:#ffe6ac;
+	padding: 29px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	color: white;
+}
+/* Botton starts gere*/
+table, td, th {
+	border: 1px solid black;
+	padding-bottom: 12px;
+  }
+th{
+	background-color: #ffe6ac;
+
+}
+table {
+	width: 1000px;
+	padding-bottom:  20px;
+ }
+
+  footer{
+	background-color: #222;
+	color: #c78c06;
+	display: block;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+{}  
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
